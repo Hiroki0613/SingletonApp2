@@ -17,6 +17,7 @@ import UIKit
 
 class Tab1ViewController: UITabBarController {
     
+    var array = Array()
     
     
     @IBOutlet weak var textField: UITextField!
@@ -38,6 +39,10 @@ class Tab1ViewController: UITabBarController {
                
         singleton.saveContents(content: content)
         label.text = singleton.getContents()
+        array.arrayData.append(label.text!)
+        UserDefaults.standard.set(array, forKey: "arrayKey")
+        
+        
     }
     
 
