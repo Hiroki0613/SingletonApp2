@@ -39,6 +39,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F5EA2D2240E65D900EAE822 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F5EA2D6240E661900EAE822 /* System */,
+				7F5EA2D5240E661000EAE822 /* VC */,
+				A404D614240E5A890048289C /* SceneDelegate.swift */,
+				A404D612240E5A890048289C /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F5EA2D3240E65E700EAE822 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A404D618240E5A890048289C /* Main.storyboard */,
+				A404D61D240E5A8C0048289C /* LaunchScreen.storyboard */,
+				A404D61B240E5A8C0048289C /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F5EA2D4240E65ED00EAE822 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F5EA2D5240E661000EAE822 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A404D616240E5A890048289C /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		7F5EA2D6240E661900EAE822 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				7F5EA2D0240E64D200EAE822 /* Singleton.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
 		A404D606240E5A890048289C = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +102,9 @@
 		A404D611240E5A890048289C /* SingletonApp2 */ = {
 			isa = PBXGroup;
 			children = (
-				A404D612240E5A890048289C /* AppDelegate.swift */,
-				A404D614240E5A890048289C /* SceneDelegate.swift */,
-				A404D616240E5A890048289C /* ViewController.swift */,
-				A404D618240E5A890048289C /* Main.storyboard */,
-				7F5EA2D0240E64D200EAE822 /* Singleton.swift */,
-				A404D61B240E5A8C0048289C /* Assets.xcassets */,
-				A404D61D240E5A8C0048289C /* LaunchScreen.storyboard */,
+				7F5EA2D4240E65ED00EAE822 /* Model */,
+				7F5EA2D3240E65E700EAE822 /* View */,
+				7F5EA2D2240E65D900EAE822 /* Controller */,
 				A404D620240E5A8C0048289C /* Info.plist */,
 			);
 			path = SingletonApp2;
