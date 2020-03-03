@@ -8,6 +8,10 @@
 
 import UIKit
 
+
+//すみません・・・、.textを入れるの忘れていました・・・。
+//Generic iOS Deviceしか左上で表示されていない状態です。
+
 class Tab1ViewController: UITabBarController {
     
     
@@ -27,7 +31,7 @@ class Tab1ViewController: UITabBarController {
         let singleton :Singleton =  Singleton.sharedInstance
                
         guard let content = textField.text else { return }
-                
+               
         singleton.saveContents(content: content)
         label.text = singleton.getContents()
     }
