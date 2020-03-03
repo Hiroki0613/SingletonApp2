@@ -29,7 +29,7 @@ class Tab1ViewController: UITabBarController {
         guard let content = textField.text else { return }
                 
         singleton.saveContents(content: content)
-        label = singleton.getContents()
+        label.text = singleton.getContents()
     }
     
 
