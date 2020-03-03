@@ -12,6 +12,9 @@ import UIKit
 //すみません・・・、.textを入れるの忘れていました・・・。
 //Generic iOS Deviceしか左上で表示されていない状態です。
 
+//いえ、私が作成したものは大丈夫です。
+//またシミュレータを追加することが出来ない状態です。
+
 class Tab1ViewController: UITabBarController {
     
     
